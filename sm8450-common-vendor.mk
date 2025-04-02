@@ -232,6 +232,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin
 
 PRODUCT_PACKAGES += \
+    libldacBT_abr \
+    libldacBT_enc \
+    liblhdc \
+    liblhdcBT_enc \
     vendor.qti.diaghal-V1-ndk \
     eglSubDriverAndroid \
     libEGL_adreno \
